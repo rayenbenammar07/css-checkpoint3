@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 150vh;
+ 
+
+}
+.navigation{
+    height: 40px;
+    /* border: 1px black solid; */
+}
+
+nav{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 1040px 0px 0px;
+}
+nav h3{
+    margin: 0;
+    font-size: 1rem; 
+    
+}
+
+
+.btn{
+    position: relative;
+    top: 0px;
+    left: 500px;
+}
+
+
+.my-hero{
+    /* border: 1px blue solid; */
+    background-color: #212529;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.my-hero h1{ margin: 0;
+font-size: 2.5rem;
+color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.my-hero p {
+    color: white;
+}
+
+#container{
+/* border: 5px red solid; */
+display: flex;
+justify-content: center;
+margin-top: 50px;
+
+}
+#card{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+#image-bg{
+    /* border: 5px red solid; */
+    width: fit-content;
+}
+#card-body-head h4,p,h5{
+    margin: 0;
+
+}
+#card-body{
+    /* border: 5px red solid; */
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.buy{
+    position: relative;
+    bottom: 310px;
+    left:90px ;
+    background-color: #212529;
+    color: white;
+    width: 50px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button{
+ all:unset;
+ margin: 27px;
+ border: 1px rgb(0, 0, 0) solid ;
+ border-radius: 4.5px;
+ width:100px;
+ height: 30px;
+ font-size: 1rem;
+ color: rgb(0, 0, 0);
+ background-color: rgb(255, 255, 255);
+text-align: center;
+
+
+
+}
+
+
+.btnn{
+    position: relative;
+    bottom: 190px;
+    left: 95px;
+    width: 45px;
+    background-color: #212529;
+    color: white;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#move{
+    width: fit-content;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
